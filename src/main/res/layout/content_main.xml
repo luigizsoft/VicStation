@@ -303,7 +303,7 @@
 
     <com.androidplot.xy.XYPlot
         android:id="@+id/myXPlot"
-        android:layout_width="372dp"
+        android:layout_width="387dp"
         title ="Graficar Datos"
         android:layout_marginTop="0dp"
         app:layout_constraintTop_toBottomOf="@+id/sep2"
@@ -313,12 +313,17 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_height="105dp"
-        app:layout_constraintVertical_bias="0.207" />
+        android:layout_height="161dp"
+        app:layout_constraintVertical_bias="0.125"
+        app:layout_constraintHorizontal_bias="0.666"
+        tools:layout_editor_absoluteY="228dp"
+        tools:layout_editor_absoluteX="-9dp"
+
+        />
 
     <com.androidplot.xy.XYPlot
         android:id="@+id/myXPlotHum"
-        android:layout_width="375dp"
+        android:layout_width="384dp"
         title ="Graficar Datos"
         android:layout_marginTop="0dp"
         app:layout_constraintTop_toBottomOf="@+id/sep2"
@@ -327,10 +332,10 @@
         app:layout_constraintLeft_toLeftOf="parent"
         android:layout_marginRight="8dp"
         app:layout_constraintRight_toRightOf="parent"
-        android:layout_height="92dp"
-        app:layout_constraintVertical_bias="0.75"
+        android:layout_height="111dp"
+        app:layout_constraintVertical_bias="0.959"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.428" />
+        tools:layout_editor_absoluteX="-6dp" />
 
     <TextView
         android:id="@+id/textView7"
@@ -343,12 +348,12 @@
         android:text="Historico Temperatura"
         android:textColor="@android:color/darker_gray"
         android:textSize="11sp"
-        app:layout_constraintBottom_toTopOf="@+id/myXPlot"
         app:layout_constraintLeft_toLeftOf="@+id/myXPlot"
         app:layout_constraintRight_toRightOf="@+id/myXPlot"
         app:layout_constraintTop_toBottomOf="@+id/sep2"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintVertical_bias="0.054"
+        app:layout_constraintBottom_toBottomOf="@+id/myXPlot" />
 
     <TextView
         android:id="@+id/textView8"
@@ -365,7 +370,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/textView7"
-        app:layout_constraintVertical_bias="0.589"
+        app:layout_constraintVertical_bias="0.636"
         app:layout_constraintHorizontal_bias="0.501" />
 
 </android.support.constraint.ConstraintLayout>
